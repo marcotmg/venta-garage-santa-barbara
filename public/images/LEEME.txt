@@ -1,0 +1,2 @@
+# Carpeta para imágenes de productos.
+# Coloca aquí tus archivos .jpg con los nombres definidos en src/data.ts
