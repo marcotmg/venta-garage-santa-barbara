@@ -28,9 +28,11 @@ export function CatalogPage() {
         ))}
       </div>
       
-      <div className="mt-24 max-w-md mx-auto">
-        <GitHubPublish />
-      </div>
+      {import.meta.env.DEV && (
+        <div className="mt-24 max-w-md mx-auto">
+          <GitHubPublish />
+        </div>
+      )}
 
       <footer className="mt-20 pt-8 border-t border-zinc-200 text-center text-zinc-400 text-sm">
         <p>&copy; 2026 Venta de Garage Santa Bárbara. Todos los derechos reservados.</p>
